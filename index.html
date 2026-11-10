@@ -1,20 +1,26 @@
-<!--|Giant Omelette HTML|-->
 <div class="widget-container">
-    <!--Lootbox Widget Box-->
-    <div id = "lootboxBox" class= "lootbox-box">
-    <!--Giant Omelette Image-->
-    <img id="giantOmeletteImg" class="giant-omelette-banner" src="assets\omelettepng", alt="Giant Omelette Placeholder">
-    <!--Prompt and Status Label-->
-    <div id="boxLabel" class="box-label">Traveling to Giant Omelette...</div>
+    <div class="lootbox-box">
+        <!-- Giant Omelette Banner Image -->
+        <img id="giantOmeletteImg" class="giant-omelette-banner" src="https://raw.githubusercontent.com/nerdwiththebeanie/giantomelette-widget/refs/heads/main/assets/neopetomelette.gif" alt="Giant Omelette">
 
-    <!--Hidden until reward is won-->
-    <div id="rewardContainer" class="reward-container">
-        <div class="reward-image-wrapper">
-        <img id="rewardImage" class="reward-image" src="" alt="Omelette Reward">
+        <!-- Dynamic Box Label -->
+        <div id="boxLabel" class="box-label">
+            <span class="announcement-text">Hungry? Type !giantomelette to take a slice.</span>
         </div>
-        <div id="rewardName" class="reward-name"></div>
+
+        <!-- Reward Reveal Container -->
+        <div id="rewardContainer" class="reward-container">
+            <div class="reward-line-top">
+                <div class="reward-image-wrapper">
+                    <img id="rewardImage" class="reward-image" src="" alt="Omelette Reward">
+                </div>
+            </div>
+            
+            <!-- Side-by-Side Badges Container -->
+            <div class="badges-container">
+                <div id="rewardRarity" class="badge"></div>
+                <div id="rewardFlavor" class="badge"></div>
+            </div>
+        </div>
     </div>
-        <div id = "rewardRarity" class="badge">Rarity</div>
-        <div id = "rewardFlavor" class="badge">Flavor</div>
-    </div>
-</div> 
+</div>
