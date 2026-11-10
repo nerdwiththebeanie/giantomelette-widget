@@ -1,0 +1,7 @@
+{
+    "chatCommand": "!giantomelette",
+    "lootboxText": "[Username] approaches the giant omelette...",
+    "loadingText": "[Username] is approaching...",
+    "rewardText": "[Username] manages to grab a [omelettereward] slice."
+
+}

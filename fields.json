@@ -1,0 +1,28 @@
+
+{
+  "chatCommand" : {
+    "type": "text",
+    "label": "Text for commands",
+    "value": "commandname"
+  },
+  "instructionText" : {
+    "type": "text",
+    "label": "Text for instructions on how to use the widget",
+    "value": "lootboxtext"
+  },
+  "loadingText": {
+    "type": "text",
+    "label": "Text for loading animation",
+    "value": "loadingtext"
+  },
+  "rewardText": {
+    "type": "text",
+    "label": "Text for the reward",
+    "value": "rewardtext"
+  },
+  "warningText": {
+    "type": "text",
+    "label": "Warning text for users",
+    "value": "warningtext"
+  }
+}
